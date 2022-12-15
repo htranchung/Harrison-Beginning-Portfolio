@@ -1,7 +1,7 @@
 # 02 Advanced CSS: Portfolio
 https://htranchung.github.io/Harrison-Beginning-Portfolio/
 
-<img src="assets/images/Portfolio.png" width="500" height="500">
+<img src="assets/images/Portfolio.jng" width="500" height="500">
 
 Description
 Shows potential employers my work
@@ -13,7 +13,7 @@ Installation
 N/A
 
 Usage
-Horiseon Marketing Agency Webpage
+Shows my potential employers my work
 
 Credits
 N/A
