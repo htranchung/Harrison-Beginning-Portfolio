@@ -2,114 +2,73 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/abc.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap" rel="stylesheet">
+    <title>Harrison's Portfolio</title>
 </head>
 
 <body>
-  <!-- main logo / nav -->
-  <header>
-    <h1>Lernantino</h1>
-    <nav>
-      <a href="#about">About Me</a>
-      <a href="#work">Work</a>
-      <a href="#contact">Contact Me</a>
-      <!-- Link this to your resume! -->
-      <a href="#">Resume</a>
-    </nav>
-  </header>
+    <header>
+        <nav>
+            <a href="./resume.pdf">Resume</a>
+            <a href="#contact">Contact Me</a>
+            <a href="#work">Work</a>
+            <a href="#about">About Me</a>
+        </nav>
+    </header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
+    <div class="important">
+        <h1>Harrison Tran-Chung</h1>
+        <h1>Full Stack Web Developer</h1>
     </div>
-  </section>
 
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-      <div>
-        <p>
-          Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter
-          plaid
-          direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard
-          Carles you
-          probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut
-          paleo
-          scenester
-        </p>
-        <p>
-          Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal
-          dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx
-          Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap
-          squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't
-          heard of them American Apparel next level pug ugh.
-        </p>
-      </div>
-    </section>
+    <img class="image" src="/assets/images/Harrison1.jpg" alt="Harrison" />
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-      <div class="flex-container">
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="aboutme">
+                <p>
+                    I'm a 27 year old currently enrolled as a student at University of Minnesota Coding Boot Camp. I
+                    started
+                    the class on November 28, 2022 and I will graduate on May 25, 2023
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </section>
 
-        <a href="#" class="flex-item surf-report">
-          <div>
-            <h3>Surf Report</h3>
-            <span>MERN Stack</span>
-          </div>
-        </a>
+        <section id="work">
+            <h2>Work</h2>
+            <a href="https://htranchung.github.io/Harrison-Beginning-Portfolio/">
+                <div class="container">
+                    <div class="hiddentext">HTML/CSS Project</div>
+                </div>
+            </a>
+    </main>
 
-        <a href="#" class="flex-item led-wall">
-          <div>
-            <h3>LED Wall</h3>
-            <span>Node/IoT</span>
-          </div>
-        </a>
-        <a href="#" class="flex-item react-calc">
-          <div>
-            <h3>Calculator</h3>
-            <span>React/JavaScript/CSS</span>
-          </div>
-        </a>
-
-        <a href="#" class="flex-item pastel-puzzles">
-          <div>
-            <h3>Pastel Puzzels</h3>
-            <span>MERN Stack</span>
-          </div>
-        </a>
-
-
-        <a href="#" class="flex-item run-buddy">
-          <div>
-            <h3>Run Buddy</h3>
-            <span>HTML/CSS</span>
-          </div>
-        </a>
-
-      </div>
-    </section>
-
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-      <div>
-        <address>
-          <a href="tel:+15555555555">555.555.5555</a>
-          <a href="mailto:lernantino@website.com">lernantino@website.com</a>
-          <a href="#">GitHub</a>
-          <a href="#">Twitter</a>
-          <a href="#">Spotify</a>
-        </address>
-      </div>
-    </section>
-  </main>
+    <footer id="contact">
+        <h2>Contact Me</h2>
+        <div class="contactme">
+            <a href="tel:+15555555555">Phone</a>
+            <a href="mailto:tranchung@live.com">E-Mail</a>
+            <a href="http://github.com/htranchung">GitHub</a>
+            <a href="./resume.pdf">Resume</a>
+        </div>
+    </footer>
 </body>
 
 </html>
