@@ -70,7 +70,6 @@ nav a:hover {
 }
 
 .container {
-    background-image: url("/assets/images/02-portfolio-2.jpg");
     background-position: center;
     text-align: center;
     border-radius: 15px 50px 30px;
@@ -78,6 +77,20 @@ nav a:hover {
     padding: 150px;
     width: 200px;
     margin: auto;
+    font-size: 40px;
+}
+
+
+.container1 {
+    background-image: url("/assets/images/02-portfolio-2.jpg");
+}
+
+.container2 {
+    background-image: url("/assets/images/youtube.jpg");
+}
+
+.container3 {
+    background-image: url("/assets/images/02-portfolio-4.jpg");
 }
 
 .container:hover {
@@ -86,15 +99,9 @@ nav a:hover {
     border: 10px solid gray;
 }
 
-.hiddentext {
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    font-size: 40px;
+a {
     color: black;
-}
-
-.hiddentext:hover {
-    opacity: 1;
+    text-decoration: none;
 }
 
 div a {
@@ -104,6 +111,7 @@ div a {
     font-size: 20px;
     border-radius: 25px;
 }
+
 .contactme {
     padding-top: 30px;
 }
