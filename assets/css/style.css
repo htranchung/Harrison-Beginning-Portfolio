@@ -1,5 +1,5 @@
 body {
-    background: url("./assets/images/wallpaper.jpg") no-repeat center center fixed;
+    background: url("../images/wallpaper.jpg") no-repeat center center fixed;
     background-size: cover;
     max-width: 90%;
     margin-left: auto;
@@ -82,15 +82,15 @@ nav a:hover {
 
 
 .container1 {
-    background-image: url("./assets/images/02-portfolio-2.jpg");
+    background-image: url("../images/02-portfolio-2.jpg");
 }
 
 .container2 {
-    background-image: url("./assets/images/youtube.jpg");
+    background-image: url("../images/youtube.jpg");
 }
 
 .container3 {
-    background-image: url("./assets/images/02-portfolio-4.jpg");
+    background-image: url("../images/02-portfolio-4.jpg");
 }
 
 .container:hover {
