@@ -17,7 +17,7 @@ N/A
 
 ## Usage
 
-Shows my potential employers my work
+Shows my potential to future employers and the work I've done
 
 ## Credits
 
