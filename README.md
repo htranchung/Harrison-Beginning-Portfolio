@@ -2,7 +2,7 @@
 
 https://htranchung.github.io/Harrison-Beginning-Portfolio/
 
-<img src="../images/Portfolio.png" width="500" height="500">
+<img src="./assets/images/Portfolio.png" width="500" height="500">
 
 ## Description
 
